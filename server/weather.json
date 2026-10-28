@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "/Users/naveen_tanniru/.local/bin/uv",
+      "args": [
+        "run",
+        "--frozen",
+        "--with",
+        "mcp[cli]==2.3.0",
+        "mcp",
+        "run",
+        "/Users/naveen_tanniru/Desktop/Agentic_AI/MCP_learning/server/weather.py"
+      ]
+    }
+  }
+
+}
